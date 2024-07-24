@@ -1,0 +1,96 @@
+@media screen and (max-width:576px){
+    .navbar i{
+        display: block;
+        font-size: 1.6rem;
+    }
+
+    .nav-items,
+     li{
+     display: none;
+    }
+
+    .navbar,
+     .main-section-1,
+     .banner-section,
+     .main-section-1{
+        margin: 10px 10px;
+    }
+     .main-section-4-container{
+        margin: 10px 20px;
+    }
+
+    .main-section-2-container,
+    .main-section3{
+        margin: 15px 5px;
+    }
+
+    .main-section-2-title,
+     .main-section-2-image,
+     .title-info{
+        margin: 10px 5px 5px 5px;
+    }
+    .body{
+        background-color: black;
+    }
+
+    .card-container,
+     .banner-section, 
+     .main-section-2-container,
+     .main-section-4-container{
+        flex-direction: column;
+    }
+
+    .banner-title .banner-text-title{
+        text-align: left;
+    }
+
+    .banner-section{
+        margin: 0 auto;
+    }
+
+    .banner-section,
+    .main-section1-title,
+    .input-title{
+        width: 100%;
+    }
+
+    .banner-image,
+    .main-section-4-table-heading{
+        width: 80%;  
+    }
+
+    .banner-image img{
+        width: 75%;
+    }
+
+    .main-section3-container{
+        text-align: left;
+        width: 100%;
+        margin: 5px 5px;
+    }
+
+    .card{
+        width: 330px;
+        color: white;
+        border: 2px solid tomato;
+    }
+
+    .card-container{
+        margin: 50px 20px 30px 20px ;
+     align-items: center;
+    }
+    .form-title-1, .form-title-2{
+        width: 100%;
+        gap:10px;
+        margin-bottom: 10px;
+      }
+      .form-title-1 input{
+        width: 45%;
+      }
+      .form-title-2 select{
+        width: 48%;
+      }
+      .form-title-2 input{
+        width: 40.08%;
+      }
+}
