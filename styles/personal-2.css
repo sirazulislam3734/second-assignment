@@ -12,7 +12,10 @@
     .navbar,
      .main-section-1,
      .banner-section,
-     .main-section-1{
+     .main-section-1,
+     .footer-section-container,
+     .main-section-5,
+     .footer-title{
         margin: 10px 10px;
     }
      .main-section-4-container{
@@ -31,12 +34,14 @@
     }
     .body{
         background-color: black;
+        margin: 0 auto;
     }
 
     .card-container,
      .banner-section, 
      .main-section-2-container,
-     .main-section-4-container{
+     .main-section-4-container,
+     .footer-title{
         flex-direction: column;
     }
 
@@ -44,7 +49,8 @@
         text-align: left;
     }
 
-    .banner-section{
+    .banner-section,
+    .images-title{
         margin: 0 auto;
     }
 
@@ -88,9 +94,15 @@
         width: 45%;
       }
       .form-title-2 select{
-        width: 48%;
+        width: 49%;
       }
       .form-title-2 input{
-        width: 40.08%;
+        width: 41%;
+      }
+      .footer-title-3, .footer-title-2, .footer-title-1{
+        margin: 10px 10px;
+      }
+      .footer-last-option{
+        width: 100%;
       }
 }
