@@ -425,28 +425,153 @@ main{
     margin-bottom: 40px;
     font-weight: 400;
   }
-  .images-title{
-    border: 1px solid tomato;
-    max-width: 340px;
+  .main-section-5-image-container{
+    display: grid;
+    gap: 20px;
+    padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
   }
   .image-title-lite{
-    color: white;
-    position: relative;
-    bottom:65px;
-    left: 20px;
+    display: grid;
+    margin: 200px 0px 25px 15px;
+  }
+
+  .images-title-1{
+    max-width: 340px;
+    background-image: url('../images/trainer1.png');
+    border-radius: 20px;
+    background-size: 100% 105%;
+    overflow: hidden;
+    height: 260px;
   } 
+  .image-title-lite{
+    display: grid;
+  }
   .image-title-lite h3{
     margin-bottom: 5px;
+    color: white;
+    width: 100%;
   }
   .image-title-lite p{
     font-size: 0.9rem;
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+
+  .images-title-2{
+    max-width: 340px;
+    background-image: url('../images/trainer2.png');
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    height: 260px;
+  }
+  .image-title-lite h3{
+    margin-bottom: 5px;
+    color: white;
+    width: 100%;
+  }
+  .image-title-lite p{
+    font-size: 0.9rem;
+    width: 100%;
     margin-top: 5px;
     color: rgba(255, 255, 255, 0.5);
   }
   .images-title img{
     width: 100%;
+    height: 100%;
     border-radius: 10px;
   }
+
+
+  .images-title-6{
+    max-width: 340px;
+    overflow: hidden;
+    background-image: url('../images/trainer6.png');
+    border-radius: 20px;
+    height: 260px;
+    background-size: 100% 100%;
+  }
+  
+  .image-title-lite h3{
+    margin-bottom: 5px;
+    color: white;
+    width: 100%;
+  }
+  .image-title-lite p{
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+
+
+  .images-title-3{
+    max-width: 340px;
+    overflow: hidden;
+    background-image: url('../images/trainer3.png');
+    border-radius: 20px;
+    height: 260px;
+    background-size: 100% 110%;
+  } 
+  .image-title-lite-3 h3{
+    margin-bottom: 5px;
+    color: white;
+    width: 100%;
+  }
+  .image-title-lite-3 p{
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+
+
+  .images-title-4{
+    max-width: 340px;
+    overflow: hidden;
+    height: 260px;
+    border-radius: 20px;
+    background-image: url('../images/trainer4.png');
+    background-size: 118% 100%;
+  } 
+  .image-title-lite-4 h3{
+    margin-bottom: 5px;
+    color: white;
+    width: 100%;
+  }
+  .image-title-lite-4 p{
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+
+  .images-title-5{
+    max-width: 340px;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 260px;
+    background-image: url('../images/trainer5.png');
+    background-size: 100% 110%;
+  }
+  .image-title-lite-5 h3{
+    margin-bottom: 5px;
+    width: 100%;
+    color: white;
+  }
+  .image-title-lite-5 p{
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
   /* footer section styles */
   .footer-section{
     max-width: 1440px;
