@@ -47,7 +47,7 @@ background-color: black;
     justify-content: space-between;
     margin: 57px 190px 0px 190px;
     align-items: center;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 .navbar h3{
     font-size: 2.5rem;
@@ -90,8 +90,9 @@ background-color: black;
     background: rgb(230, 83, 60);
 }
 .shape{
-  font-weight: 400;
-  
+  font-size: 5rem;
+  font-weight: 300;
+  font-family: "Dancing Script", cursive;
 }
 /* banner section styles  */
 .banner-section{
@@ -196,7 +197,6 @@ main{
     margin-bottom: 30px;
 }
 .main-section-2-container .main-section-2-image img{
-   background-color: #f7f5f2;
    transform: scale(3);
    translate:-140px 35%;
 }
@@ -218,6 +218,7 @@ main{
   .main-section3-container{
     text-align: left;
     width: 670px;
+    margin-bottom: 50px;
   }
   .main-section3-text-title{
     font-size: 3.5rem;
@@ -230,43 +231,87 @@ main{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
   }
+
   .main-section-odvut1{
-    width:300px ;
-    grid-column: 1/span 3;
+    width:275px;
+    height: 190px;
+    background-image:linear-gradient(rgba(30, 228, 195, 0.5),rgba(30, 228, 195, 0.5)), url('../images/exercise1.jpg');
+    background-size: 120% 100%;
+    overflow: hidden;
   }
-  .main-section-odvut1 img{
-    width: 180%;
-    height: 70%;
+  .main-section-odvut1 p{
+    color: white;
+    font-size: 0.8rem;
+    margin: 20px 20px;
   }
+
   .main-section-odvut2{
     width: 500px;
-    grid-column: 4/span 6;
+    height: 190px;
+    background-image:linear-gradient(rgba(204, 5, 5, 0.500),rgba(204, 5, 5, 0.500)), url('../images/exercise2.png');
+    background-size: 100% 115%;
+    overflow: hidden;
   }
-  .main-section-odvut2 img{
-    width: 90%;
-    height: 70%;
+  .main-section-odvut2 p{
+    color: white;
+    font-size: 0.8rem;
+    margin: 20px 20px;
   }
+
   .main-section-odvut3{
-    width: 300px;
-    grid-column: 10/span 12;
-  background-color: darkkhaki;
+    width: 325px;
+    height: 190px;
+    background-image:linear-gradient(rgba(0,0,0,0.252),rgba(0,0,0,0.5)), url('../images/exercise3.png');
+    background-size: 110% 110%;
+    overflow: hidden;
   }
-  .main-section-odvut3 img{
-    width: 100%;
-    height: 70%;
+  .main-section-odvut3 p{
+    color: white;
+    font-size: 0.8rem;
+    margin: 150px 20px 30px 15px;
   }
+
   .main-section-odvut4{
-    grid-column: 1/span 5;
-  background-color: rgb(212, 166, 37);
+    width: 450px;
+    overflow: hidden;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.371),rgba(0,0,0,0.5)), url('../images/exercise4.png');
+    background-size: 100% 120%;
+    height: 190px;
   }
+  .main-section-odvut4 p{
+    color: white;
+    font-size: 0.8rem;
+    margin:30px 5px 150px 250px;
+  }
+
   .main-section-odvut5{
-    grid-column: 6/span 3;
-  background-color: firebrick;
+    width: 300px;
+    height: 190px;
+    background-image:linear-gradient(rgba(8, 240, 47, 0.364),rgba(8, 240, 47, 0.364)), url('../images/exercise5.jpg');
+    margin-left: -30px;
+    background-size: 120% 120%;
+    transform: scale(1);
+    overflow: hidden;
   }
+  .main-section-odvut5 p{
+    color: white;
+    font-size: 0.8rem;
+    margin: 150px 20px 30px 15px;
+  }
+
   .main-section-odvut6{
-    grid-column: 9/span 4;
-  background-color: gray;
+    width: 340px;
+    background-image:linear-gradient(rgba(94, 5, 211, 0.453),rgba(94, 5, 211, 0.453)), url('../images/exercise6.jpg');
+    background-size: 100% 110%;
+    overflow: hidden;
+    height: 190px;
   }
+  .main-section-odvut6 p{
+    color: white;
+    font-size: 0.8rem;
+    margin: 150px 20px 30px 15px;
+  }
+
   .main-section3{
 
   }
@@ -404,12 +449,12 @@ main{
   /* main-section-5 styles */
   .main-section-5{
     margin: 90px 190px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
   }
   .main-section-5-text-title{
     max-width: 640px;
     margin: 0 auto;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
   }
   .section-5-text-title{
     font-size: 3.05rem;
@@ -427,7 +472,9 @@ main{
   }
   .main-section-5-image-container{
     display: grid;
+    background-color: #373737;
     gap: 20px;
+    border-radius: 20px;
     padding: 15px;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -438,11 +485,11 @@ main{
 
   .images-title-1{
     max-width: 340px;
-    background-image: url('../images/trainer1.png');
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url('../images/trainer1.png');
     border-radius: 20px;
     background-size: 100% 105%;
     overflow: hidden;
-    height: 260px;
+    height: 272px;
   } 
   .image-title-lite{
     display: grid;
@@ -462,11 +509,11 @@ main{
 
   .images-title-2{
     max-width: 340px;
-    background-image: url('../images/trainer2.png');
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url('../images/trainer2.png');
     border-radius: 20px;
     overflow: hidden;
     background-size: 100% 100%;
-    height: 260px;
+    height: 272px;
   }
   .image-title-lite h3{
     margin-bottom: 5px;
@@ -479,19 +526,14 @@ main{
     margin-top: 5px;
     color: rgba(255, 255, 255, 0.5);
   }
-  .images-title img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-  }
 
 
   .images-title-6{
     max-width: 340px;
     overflow: hidden;
-    background-image: url('../images/trainer6.png');
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url('../images/trainer6.png');
     border-radius: 20px;
-    height: 260px;
+    height: 272px;
     background-size: 100% 100%;
   }
   
@@ -512,9 +554,9 @@ main{
   .images-title-3{
     max-width: 340px;
     overflow: hidden;
-    background-image: url('../images/trainer3.png');
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url('../images/trainer3.png');
     border-radius: 20px;
-    height: 260px;
+    height: 272px;
     background-size: 100% 110%;
   } 
   .image-title-lite-3 h3{
@@ -534,9 +576,9 @@ main{
   .images-title-4{
     max-width: 340px;
     overflow: hidden;
-    height: 260px;
+    height: 272px;
     border-radius: 20px;
-    background-image: url('../images/trainer4.png');
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url('../images/trainer4.png');
     background-size: 118% 100%;
   } 
   .image-title-lite-4 h3{
@@ -556,8 +598,8 @@ main{
     max-width: 340px;
     overflow: hidden;
     border-radius: 20px;
-    height: 260px;
-    background-image: url('../images/trainer5.png');
+    height: 272px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url('../images/trainer5.png');
     background-size: 100% 110%;
   }
   .image-title-lite-5 h3{
