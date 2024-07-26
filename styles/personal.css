@@ -45,6 +45,7 @@ background-color: black;
 /* header section styles */
 .header{
     max-width: 1440px;
+    background-color: #222222;
     margin: 0 auto;
 }
 .navbar{
@@ -128,12 +129,15 @@ background-color: black;
   background-image: url('../images/Images\ 2.png');
 }
 .banner-image-title-1{
-  width: 160px;
+  width: 190px;
   top: 400px;
   right: 280px;
-  border-radius: 10px;
-  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
   backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  position: absolute;
   padding: 15px;
 }
 .banner-image-title-1 div{
@@ -153,14 +157,21 @@ background-color: black;
   font-weight: 700;
   margin-bottom: 10px;
 }
+.banner-image-title-1 div i{
+  margin-top: 15px;
+  margin-left: 15px;
+}
 .banner-image-title-2{
-  width: 128px;
+  width: 160px;
   position: absolute;
   top: 150px;
-  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 12px;
-  background-color: #4A3C32;
-  left: 280px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  left: 250px;
 }
 .banner-image-title-2 p{
   text-align: left;
@@ -230,7 +241,7 @@ main{
 }
 .main-section-2-title{
     width: 445px;
-    margin:30px 160px 30px 30px;
+    margin:30px 160px 30px 40px;
     color: white;
 }
 .main-section-2-text-title{

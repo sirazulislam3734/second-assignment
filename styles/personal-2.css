@@ -9,6 +9,7 @@
      display: none;
     }
     .banner-title{
+      width: 90%;
         padding: 0;
         margin: 50px 20px 0px 20px;
     }
@@ -33,17 +34,21 @@
         transform: scale(2);
         translate:-110px 35%;
      }
-     
+     .main-section-2-title{
+      width: 250px;
+      margin-right: 0px;
+      
+     }
     .main-section-2-container{
         margin: 15px 25px;
+        justify-content: center;
     }
     .main-section-2-container-btn,
     .main-section-2-title{
-      width: 100%;
+      width: 90%;
     }
-    .main-section-2-title,
      .main-section-2-image{
-        margin: 10px auto 20px auto;
+        margin: 20px auto 20px auto;
     }
     .body{
         background-color: black;
@@ -61,9 +66,10 @@
       display: none;
     }
     .btn-title{
-      width: 90%;
+      width: 100%;
+
     }
-    .btn-title > button{
+    .btn-title  button{
       width: 45%;
     }
     .btn-color{
@@ -87,11 +93,18 @@
     .banner-image{
       height: 650px;
       width: 400px;
-      margin: 50px 15px;
+      margin: 50px 15px 0px 15px;
     }
     .banner-image-title-1{
       right: 250px;
       border-radius: 15px;
+    }
+    .banner-image-title-2{
+      top: 100px;
+      left: 220px;
+    }
+    .banner-description{
+      width: 260px;
     }
     .main-section-4-table-heading{
         width: 80%;  
@@ -152,12 +165,12 @@
       .images-title-4,
       .images-title-5,
       .images-title-6{
-        max-width: 400px;
-        height: 292px;
+        max-width: 420px;
+        height: 350px;
       }
       .image-title-lite{
         display: grid;
-        margin: 220px 0px 25px 15px;
+        margin: 270px 0px 25px 15px;
       }
       .main-section-odvut3, 
       .main-section-odvut6{
