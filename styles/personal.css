@@ -45,6 +45,19 @@ background-color: black;
     border: 2px solid darkgrey;
     background-color: #101010;
 }
+
+
+.btn-color:hover{
+  background-color: #E6533C;
+  transition: 1.2s;
+}
+.btn-1:hover{
+  border: 2px solid darkgrey;
+  background-color: black;
+  transition: 1.2s;
+}
+
+
 /* header section styles */
 .header{
     max-width: 1440px;
@@ -220,6 +233,10 @@ main{
     width: 230px;
     color: white;
 }
+.card:hover{
+  transform: scale(1.3);
+  transition: 1.2s;
+}
 .card-image{
     justify-content: center;
     margin-bottom: 20px;
@@ -274,6 +291,12 @@ main{
 .main-section-2-image img{
     width: 100%;
   }
+  .main-section-2-container-btn:hover{
+    background-color: black;
+    transition: 1.2s;
+    padding: 14px 40px;
+    border: 1px solid darkgrey;
+  }
   /* main-section3 styles */
   .main-section3{
     margin: 50px 190px 0px 190px;
@@ -315,6 +338,7 @@ main{
     background-size: 100% 115%;
     overflow: hidden;
   }
+  
   .main-section-odvut2 p{
     color: white;
     font-size: 0.8rem;
@@ -463,6 +487,22 @@ main{
     color: gray;
     border-radius: 10px;
   }
+  .form-title-2 input:hover{
+      transform: scale(1.2);
+      transition: 1.2s;
+  }
+  .form-title-1 input:hover{
+      transform: scale(1.2);
+      transition: 1.2s;
+  }
+  .form-title-2 select:hover{
+      transform: scale(1.2);
+      transition: 1.2s;
+  }
+  .input-info:hover{
+      transform: scale(1.2);
+      transition: 1.2s;
+  }
   .form-title-2 select{
     width: 305px;
     padding: 15px 20px;
@@ -503,6 +543,11 @@ main{
     color: white;
     margin-bottom: 50px;
     background: rgb(230, 83, 60);
+  }
+  .submit:hover{
+    border: 1px solid gray;
+    transition: 1.2s;
+    background-color: #101010;
   }
   
   /* main-section-5 styles */
@@ -548,6 +593,31 @@ main{
     overflow: hidden;
     height: 272px;
   } 
+
+  .images-title-1:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  .images-title-2:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  .images-title-3:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  .images-title-4:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  .images-title-5:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  .images-title-6:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
   .image-title-lite{
     display: grid;
   }
