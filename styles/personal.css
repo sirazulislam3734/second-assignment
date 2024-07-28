@@ -12,6 +12,9 @@
 .text-center{
     text-align: center;
 }
+.hide{
+  display: none;
+}
 .flex{
     display: flex;
 }
@@ -168,6 +171,7 @@ background-color: black;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 12px;
+  margin-bottom: 8px;
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
