@@ -185,9 +185,12 @@
   margin: 0px 0px 20px 0px;
   width: 100%;
 }
+.main-section-odvut5{
+  margin-left: 0px;
+}
 .main-section-odvut2,
 .main-section-odvut4{
-   width: 250px; 
+   width: 48%; 
   } 
 .main-section-odvut1,
 .main-section-odvut5{
@@ -196,6 +199,16 @@
 .main-section-odvut3,
 .main-section-odvut6{
 display: none;
+}
+.main-section-odvut1 p,
+.main-section-odvut2 p,
+.main-section-odvut5 p,
+.main-section-odvut4 p{
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin: 160px 10px 0px 20px;
+}
+.main-section-odvut4 p{
 }
 /* title-info */
 .title-info{
