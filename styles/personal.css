@@ -174,7 +174,7 @@ background-color: black;
   margin-bottom: 10px;
 }
 .banner-image-title-1 div i{
-  margin-top: 15px;
+  margin-top: 14px;
   margin-left: 15px;
 }
 .banner-image-title-2{
@@ -234,8 +234,11 @@ main{
     color: white;
 }
 .card:hover{
+  background: #222222;
   transform: scale(1.3);
   transition: 1.2s;
+  padding: 15px;
+  border-radius: 15px;
 }
 .card-image{
     justify-content: center;

@@ -80,7 +80,7 @@
     width: 150px;
     padding: 5px 10px;
     top: 220px;
-    right: 130px;
+    right: 110px;
   }
   .banner-image-title-1 div{
     margin-top: 13px;
@@ -104,9 +104,9 @@
   }
   .banner-image-title-2{
     top: 40px;
-    padding: 7px 12px;
-    width: 125px;
-    left: 160px;
+    padding: 7px 10px;
+    width: 120px;
+    left: 155px;
   }
   .banner-image-title-2 p span{
     font-size: 1.7rem;
@@ -119,6 +119,12 @@
     text-align: left;
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.5);
+  }
+  .btn-1:hover{
+    background-color: #E6533C;;
+  }
+  .btn-color:hover{
+    background-color: #140b0a;
   }
   /* main-section-1 */
   .main-section-1{
@@ -142,6 +148,12 @@
   .card{
     width: 100%;
     color: white;
+}
+.card:hover{
+  background-color:black;
+  padding: 0px;
+  transform: scale(1);
+  transition: 1.2s;
 }
   /* main-section-2 */
   .main-section-2-container{
@@ -168,6 +180,11 @@
     transform: scale(2);
     translate:-80px 25%;
  }
+ .main-section-2-container-btn:hover{
+  background-color: #E6533C;
+  transition: 1.2s;
+  
+}
  /* main-section-3 */
  .main-section3{
   margin: 50px 20px;
@@ -229,6 +246,9 @@ display: none;
 .main-section-4-container{
   margin: 10px 20px;
 }
+.main-section-4-table-heading{
+  width: 290px;
+}
 .input-title{
   width: 100%;
 }
@@ -245,6 +265,10 @@ display: none;
 }
 .form-title-2 select{
   width: 50%;
+}
+.submit:hover{
+  transition: 1.2s;
+  background-color: #E6533C;
 }
 /* main-section-5 */
 .main-section-5{
@@ -268,6 +292,32 @@ display: none;
 .images-title-6{
  max-width: 100%;
 }
+
+.images-title-1:hover{
+  transform: scale(1);
+  transition: 1.2s;
+}
+.images-title-2:hover{
+  transform: scale(1);
+  transition: 1.2s;
+}
+.images-title-3:hover{
+  transform: scale(1);
+  transition: 1.2s;
+}
+.images-title-4:hover{
+  transform: scale(1);
+  transition: 1.2s;
+}
+.images-title-5:hover{
+  transform: scale(1);
+  transition: 1.2s;
+}
+.images-title-6:hover{
+  transform: scale(1);
+  transition: 1.2s;
+}
+/* footer */
 footer{
   max-width: 100%;
   margin: 0px;
