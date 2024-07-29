@@ -31,6 +31,7 @@
   .card-container,
   .main-section-2-container,
   .main-section-4-container,
+  .main-section-6,
   .footer-title{
     flex-direction: column;
   }
@@ -316,6 +317,19 @@ display: none;
 .images-title-6:hover{
   transform: scale(1);
   transition: 1.2s;
+}
+/* main-section-6 */
+.main-section-6{
+  margin: 30px 20px;
+}
+.main-section-6-title{
+  max-width: 100%;
+}
+.section-6-text-title{
+  font-size: 2.5rem;
+}
+.main-section-6-image-title{
+margin-top: 20px;
 }
 /* footer */
 footer{

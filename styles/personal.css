@@ -262,6 +262,7 @@ main{
     justify-content: center;
     background: #222222;
     border-radius: 15px;
+    border: 1px solid tomato;
     margin: 100px 190px 0px 190px;
 }
 .main-section-2-title{
@@ -743,7 +744,48 @@ main{
     margin-top: 5px;
     color: rgba(255, 255, 255, 0.5);
   }
-  
+  /* main-section-6 styles */
+  .main-section-6{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background: #222222;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid tomato;
+    margin: 100px 190px 100px 190px;
+}
+.main-section-6-title{
+  width: 470px;
+  margin-left: 20px;
+  color: white;
+}
+.section-6-text-title{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.section-6-description{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.main-section-6-title .section-6-btn a{
+  color: white;
+  text-decoration: none;
+
+}
+.main-section-6-image-title{
+  max-width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.main-section-6-image-title img{
+  width: 100%;
+}
+
   /* footer section styles */
   .footer-section{
     max-width: 1440px;
