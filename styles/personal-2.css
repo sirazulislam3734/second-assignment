@@ -342,5 +342,49 @@ footer{
 }
 
 /* tablet device media query */
-@media screen and (min-width:576px) and (max-width:990px) {
+@media screen and (min-width:576px) and (max-width:992px) {
+  .body{
+    width: 992px;
+  }
+  /* header */
+  .header{
+    max-width: 100%;
+  }
+  /* banner */
+  .banner-section{
+    width: 100%;
+    margin: 0px auto;
+    flex-direction: column;
+  }
+  .banner-title{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar{
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .banner-image-title-1{
+    width: 190px;
+    padding: 15px 15px;
+    top: 370px;
+    right: 200px;
+  }
+  .banner-image-title-2{
+    top: 40px;
+    padding: 10px 15px;
+    width: 160px;
+    left: 200px;
+  }
+  .banner-text-title{
+    width: 80%;
+  }
+  .banner-description{
+    font-size: 1rem;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
 }

@@ -61,7 +61,7 @@ background-color: black;
 /* header section styles */
 .header{
     max-width: 1440px;
-    background-color: #222222;
+    background: linear-gradient(180.00deg,  rgb(17, 17, 17),#222222, rgba(119, 119, 119, 0)  100%);
     margin: 50px auto;
 }
 .navbar{
