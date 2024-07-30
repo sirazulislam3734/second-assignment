@@ -357,10 +357,10 @@ footer{
 
 /* tablet device media query */
 @media screen and (min-width:576px) and (max-width:992px) {
-  .body{
-    width: 992px;
-  }
   /* header */
+  .body{
+    max-width: 992px;
+  }
   .header{
     max-width: 100%;
   }
