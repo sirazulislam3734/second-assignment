@@ -158,7 +158,7 @@ background-color: black;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   background: rgba(48, 48, 48, 0.54);
   position: absolute;
   padding: 15px;
@@ -193,7 +193,7 @@ background-color: black;
   padding: 12px;
   margin-bottom: 8px;
   border-radius: 12px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.1);
   left: 250px;
 }
@@ -273,7 +273,7 @@ main{
 }
 .main-section-2-title{
     width: 445px;
-    margin:30px 160px 30px 40px;
+    margin:0px 160px 30px 40px;
     color: white;
 }
 .main-section-2-text-title{

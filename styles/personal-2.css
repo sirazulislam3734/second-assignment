@@ -358,47 +358,171 @@ footer{
 /* tablet device media query */
 @media screen and (min-width:576px) and (max-width:992px) {
   /* header */
-  .body{
-    max-width: 992px;
-  }
   .header{
     max-width: 100%;
   }
   /* banner */
   .banner-section{
     width: 100%;
-    margin: 0px auto;
+    margin: 0px;
     flex-direction: column;
   }
   .banner-title{
     max-width: 100%;
     padding: 0px;
-    margin: 0px;
+    margin: 0px 70px 100px 70px;
   }
   .navbar{
-    max-width: 100%;
-    justify-content: space-between;
+    margin: 50px 30px 70px 30px;
   }
   .banner-image-title-1{
     width: 190px;
     padding: 15px 15px;
-    top: 370px;
-    right: 200px;
+    top: 460px;
+    right: 280px;
   }
   .banner-image-title-2{
-    top: 40px;
+    top: 50px;
     padding: 10px 15px;
     width: 160px;
-    left: 200px;
+    left: 280px;
   }
   .banner-text-title{
     width: 80%;
+    line-height: 90px;
+    font-weight: 800;
+    font-size: 5rem;
   }
   .banner-description{
-    font-size: 1rem;
+    font-size: 1.4rem;
     width: 80%;
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: 400;
   }
+  .btn-title{
+    gap: 20px;
+    width: 100%;
+  }
+  .btn-1, .btn-color{
+    width: 35%;
+  }
+  .banner-image{
+    width: 500px;
+    height: 750px;
+  }
+  /* main-section-1 */
+  main{
+    max-width: 100%;
+  }
+  .main-section-1{
+    margin: 100px 50px 100px 50px;
+  }
+  .main-section1-text-title{
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  .card-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 40%;
+    height: auto;
+  }
+  /* main-section-2 */
+  .main-section-2-container{
+    margin: 0px 30px 100px 30px;
+  }
+  .main-section-2-image{
+    width: 250px;
+    height: 310px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .main-section-2-container .main-section-2-image img{
+    transform: scale(4);
+    translate:-110px 75%;
+ }
+ /* main-section-3 */
+ .main-section3{
+  margin: 0px 30px 100px 30px;
+ }
+ .main-section3-container{
+  width: 100%;
+ }
+ .main-section3-text-title{
+  font-size: 4rem;
+  font-weight: 800;
+ }
+ /* title-info */
+ .title-info{
+
+  margin: 0px 30px 100px 30px;
+ }
+ .info-title{
+  font-size: 4rem;
+  margin-bottom: 5px;
+ }
+ /* main-section-4 */
+ .main-section4{
+  width: 100%;
+  margin-bottom: 100px;
+ }
+ .main-section-4-container{
+  margin: 0px 30px;
+  flex-direction: column;
+ }
+ .input-title{
+  width: 100%;
+ }
+ .form-title-1, .form-title-2{
+  width: 100%;
+  gap:10px;
+  /* margin-bottom: 15px; */
+}
+.form-title-1 input{
+  width: 50%;
+}
+.form-title-2 select{
+  width: 50%;
+}
+.form-title-2 input{
+  width: 44.5%;
+}
+/* main-section-5 */
+.main-section-5{
+  width: 100%;
+  margin: 0px ;
+}
+.main-section-5-image-container{
+  width: 90%;
+  margin: 0px 30px 100px 30px;
+  padding: 10px;
+  gap: 10px;
+}
+.images-title-1,
+.images-title-2,
+.images-title-3,
+.images-title-4,
+.images-title-5,
+.images-title-6{
+  width: 220px;
+}
+
+/* main-section-6 */
+.main-section-6{
+  margin: 0px 30px 100px 30px;
+}
+.main-section-6-title, 
+.main-section-6-image-title{
+  width: 40%;
+}
+.section-6-text-title{
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 50px;
+}
+
 }
