@@ -268,6 +268,7 @@ main{
     align-items: center;
     justify-content: center;
     background: #222222;
+    padding: 20px;
     border-radius: 15px;
     margin: 100px 190px 0px 190px;
 }
