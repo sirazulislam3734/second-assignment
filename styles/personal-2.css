@@ -151,7 +151,7 @@
     color: white;
 }
 .card:hover{
-  background-color:black;
+  background:#101010;
   padding: 0px;
   transform: scale(1);
   transition: 1.2s;
@@ -474,6 +474,12 @@ footer{
   margin: 0px 30px;
   flex-direction: column;
  }
+ .main-section-4-table-heading{
+  width: 50%;
+ }
+ td,th{
+  font-size: 1.3rem;
+ }
  .input-title{
   width: 100%;
  }
@@ -489,7 +495,7 @@ footer{
   width: 50%;
 }
 .form-title-2 input{
-  width: 44.5%;
+  width: 45%;
 }
 /* main-section-5 */
 .main-section-5{
