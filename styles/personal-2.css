@@ -374,6 +374,10 @@ footer{
     padding: 0px;
     margin: 0px 70px 100px 70px;
   }
+  .shape{
+    font-size: 6rem;
+    font-weight: 400;
+  }
   .navbar{
     margin: 0px 30px 70px 30px;
   }
@@ -436,7 +440,11 @@ footer{
   }
   /* main-section-2 */
   .main-section-2-container{
+    padding: 0px;
     margin: 0px 30px 100px 30px;
+  }
+  .main-section-2-text-title{
+    font-size: 2.9rem;
   }
   .main-section-2-image{
     width: 250px;
