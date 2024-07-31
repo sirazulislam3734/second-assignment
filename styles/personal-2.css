@@ -406,6 +406,8 @@ footer{
   }
   .btn-1, .btn-color{
     width: 30%;
+    font-size: 1.1rem;
+    white-space: nowrap;
   }
   .banner-image{
     width: 500px;
@@ -442,8 +444,8 @@ footer{
     margin-bottom: 30px;
   }
   .main-section-2-container .main-section-2-image img{
-    transform: scale(4);
-    translate:-110px 75%;
+    transform: scale(6);
+    translate:-120px 150%;
  }
  /* main-section-3 */
  .main-section3{
