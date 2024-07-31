@@ -436,10 +436,10 @@ main{
     max-width: 1440px;
     background: #222222;
     /* margin-bottom: 100px; */
-    margin: 100px auto;
+    margin: 50px auto;
   }
   .main-section-4-container{
-    margin: 90px 190px;
+    margin: 50px 190px;
     justify-content: space-between;
   }
   .main-section-4-container h1{
@@ -549,7 +549,7 @@ main{
   
   /* main-section-5 styles */
   .main-section-5{
-    margin: 90px 190px;
+    margin: 20px 190px;
   }
   .main-section-5-text-title{
     max-width: 640px;

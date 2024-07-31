@@ -51,8 +51,8 @@
   .banner-description,
   .main-section-2-text-description{
     font-size: 0.8rem;
-    width: 80%;
     font-weight: 400;
+     width: 80%;
   }
   .btn-title{
     width: 100%;
@@ -141,7 +141,8 @@
     margin-bottom: 10px;
   }
   .main-section1-description-title{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
   }
   .card-container{
     width: 80%;
@@ -195,6 +196,13 @@
 .main-section3-container{
   width: 100%;
 }
+.main-section3-text-title{
+  font-size: 2.7rem;
+}
+.main-section3-text-description{
+  font-size: 0.9rem;
+  font-weight: 400;
+}  
 .optional-1{
   margin: 20px 0px 0px 0px;
   width: 100%;
@@ -234,11 +242,12 @@ display: none;
   margin: 20px 20px;
 }
 .info-title{
-  font-size: 3rem;
+  font-size: 2.7rem;
+  margin-bottom: 10px;
   font-weight: 800;
 }
 .info-description{
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 /* main-section-4 */
@@ -468,6 +477,16 @@ footer{
   font-size: 4rem;
   font-weight: 800;
  }
+ .main-section-odvut1 p{
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  margin:150px 20px 0px 15px;
+}
+ .main-section-odvut4 p{
+  color: white;
+  font-size: 0.8rem;
+  margin:150px 50px 0px 15px;
+}
  /* title-info */
  .title-info{
 
