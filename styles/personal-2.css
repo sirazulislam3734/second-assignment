@@ -2,12 +2,13 @@
   /* header */
   .header{
     width: 100%;
+    padding-top: 30px;
     margin: 0 auto;
   }
   .navbar{
     width: auto;
     justify-content: space-between;
-    margin: 10px 30px 10px 20px;
+    margin: 0px 30px 10px 20px;
   }
   .navbar h3{
     font-size: 2rem;
@@ -359,6 +360,7 @@ footer{
 @media screen and (min-width:576px) and (max-width:992px) {
   /* header */
   .header{
+    padding-top: 40px;
     max-width: 100%;
   }
   /* banner */
@@ -373,7 +375,7 @@ footer{
     margin: 0px 70px 100px 70px;
   }
   .navbar{
-    margin: 50px 30px 70px 30px;
+    margin: 0px 30px 70px 30px;
   }
   .banner-image-title-1{
     width: 190px;
