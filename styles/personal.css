@@ -213,7 +213,6 @@ background-color: black;
 main{
     max-width: 1440px;
     margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 .main-section-1{
     margin:100px 190px 0px 190px ;
