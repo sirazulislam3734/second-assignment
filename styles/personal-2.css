@@ -218,6 +218,9 @@
 .main-section-odvut4{
    width: 48%; 
   } 
+  .main-section-odvut2{
+    
+  }
 .main-section-odvut1,
 .main-section-odvut5{
   width: 55%;
@@ -364,6 +367,8 @@ footer{
   margin-bottom: 20px;
 }
 }
+
+
 
 /* tablet device media query */
 @media screen and (min-width:576px) and (max-width:992px) {
